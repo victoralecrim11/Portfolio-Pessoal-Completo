@@ -1,0 +1,42 @@
+# 🌐 Portfólio Pessoal
+
+Bem-vindo ao meu portfólio pessoal!  
+Este projeto foi criado para apresentar meus trabalhos, projetos e um pouco sobre mim.  
+O objetivo é centralizar tudo em um só lugar, com um design simples, responsivo e direto ao ponto.
+
+---
+
+## 🧠 Descrição do Projeto
+
+Este portfólio pessoal foi desenvolvido para exibir informações sobre minha trajetória, habilidades técnicas e projetos desenvolvidos.  
+Além disso, serve como um espaço para que recrutadores e colaboradores possam conhecer melhor meu trabalho.
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- **HTML5** → Estrutura da aplicação  
+- **CSS3** → Estilização e layout responsivo  
+- **JavaScript (ES6)** → Interatividade e dinamismo da página  
+
+---
+
+## 🚀 Acesse o Site Publicado
+
+O projeto está hospedado no **GitHub Pages** e pode ser acessado pelo link abaixo:
+
+🔗 **[Meu Portfólio no GitHub Pages](https://seuusuario.github.io/seu-repositorio/)**
+
+---
+
+## 📂 Como Rodar Localmente
+
+Caso queira rodar o projeto na sua máquina:
+```bash
+# Clone o repositório
+git clone https://github.com/seuusuario/seu-repositorio.git
+
+# Acesse a pasta do projeto
+cd seu-repositorio
+
+# Abra o arquivo index.html no navegador

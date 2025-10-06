@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Alecrim - Desenvolvedor Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Menu / Navegação -->
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-brand">
+        <h2>Victor Alecrim</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#services" class="nav-link">Serviços</a></li>
+        <li><a href="#projects" class="nav-link">Projetos</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Olá, eu sou <span class="highlight">Victor Alecrim</span></h1>
+        <p>🎓 Estudante de Ciência da Computação - 4° Período</p>
+        <p>💻 Apaixonado por desenvolvimento web e entusiasta de tecnologia</p>
+        <p>🎯 Objetivo: me tornar um desenvolvedor full-stack experiente</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+          <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-image">
+          <img
+            src="https://avatars.githubusercontent.com/u/182650018?v=4"
+            alt="Foto de Victor Alecrim"
+            width="300"
+            height="300"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-placeholder">
+            <img
+              src="https://avatars.githubusercontent.com/u/182650018?v=4"
+              alt="Victor Alecrim"
+              width="300"
+              height="300"
+            />
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Desenvolvedor Web em Formação</h3>
+          <p>Estudante de Bacharelado em Ciências da Computação na Newton Paiva, 
+             com previsão de formatura para dezembro de 2028, e possuo formação 
+             técnica em Informática pelo Colégio COTEMIG, finalizada em dezembro de 2023.</p>
+          <p>Durante meu estágio, adquiri experiência em suporte e desenvolvimento 
+             de sistemas, trabalhando na manutenção e atualização de sistemas de 
+             gestão empresarial. Tenho fluência intermediária em inglês e certificados 
+             em diversos cursos de TI, incluindo JavaScript, Git, HTML5, CSS3, C# e .NET.</p>
+          <p>Minhas habilidades técnicas abrangem linguagens como PHP, JavaScript, 
+             Laravel e VueJS, além de experiência em MySQL, Python e ferramentas 
+             como Microsoft Visual Studio e Visual Studio Code.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <h4>4</h4>
+              <p>Período Atual</p>
+            </div>
+            <div class="stat">
+              <h4>2+</h4>
+              <p>Anos de Estudo</p>
+            </div>
+            <div class="stat">
+              <h4>10+</h4>
+              <p>Projetos Desenvolvidos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Serviços</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Criação de sites e aplicações web responsivas e modernas usando as melhores tecnologias do mercado.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Desenvolvimento Mobile</h3>
+          <p>Desenvolvimento de aplicativos móveis nativos e híbridos para iOS e Android.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Design de interfaces intuitivas e experiências de usuário excepcionais.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Backend Development</h3>
+          <p>Desenvolvimento de APIs robustas e sistemas de gerenciamento de dados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projetos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="project-content">
+            <h3>E-commerce Moderno</h3>
+            <p>Plataforma de e-commerce desenvolvida com React e Node.js,
+               incluindo sistema de pagamento e gestão de estoque.</p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Ver Projeto</a>
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Código</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="project-content">
+            <h3>Dashboard Analytics</h3>
+            <p>Dashboard interativo para análise de dados com visualizações em
+               tempo real e relatórios personalizáveis.</p>
+            <div class="project-tech">
+              <span>Vue.js</span>
+              <span>Python</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Ver Projeto</a>
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Código</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="project-content">
+            <h3>App de Gerenciamento</h3>
+            <p>Aplicação web para gerenciamento de tarefas e projetos com
+               interface responsiva e funcionalidades colaborativas.</p>
+            <div class="project-tech">
+              <span>Angular</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Ver Projeto</a>
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Código</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-content">
+            <h3>Portfólio Pessoal</h3>
+            <p>Site portfólio responsivo desenvolvido com HTML, CSS e JavaScript
+               puro, otimizado para performance e acessibilidade.</p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Ver Projeto</a>
+              <a href="https://github.com/victoralecrim11" target="_blank" class="btn btn-small btn-outline">Código</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="skills-content">
+        <div class="skills-category">
+          <h3>Hard Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML5/CSS3</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>PHP</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>MySQL</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>C#</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Soft Skills</h3>
+          <div class="soft-skills">
+            <div class="soft-skill">
+              <i class="fas fa-users"></i>
+              <span>Trabalho em Equipe</span>
+            </div>
+            <div class="soft-skill">
+              <i class="fas fa-lightbulb"></i>
+              <span>Criatividade</span>
+            </div>
+            <div class="soft-skill">
+              <i class="fas fa-comments"></i>
+              <span>Comunicação</span>
+            </div>
+            <div class="soft-skill">
+              <i class="fas fa-clock"></i>
+              <span>Gestão de Tempo</span>
+            </div>
+            <div class="soft-skill">
+              <i class="fas fa-puzzle-piece"></i>
+              <span>Resolução de Problemas</span>
+            </div>
+            <div class="soft-skill">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Aprendizado Contínuo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Vamos trabalhar juntos!</h3>
+          <p>Estou sempre interessado em novos projetos e oportunidades. Entre em contato comigo!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>victorcarmoalecrim@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+55 (31) 98429-0938</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Minas Gerais, BH - Brasil</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/victor-alecrim-90797a239/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/victoralecrim11" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/victoralecrim11" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Assunto" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2024 Victor Alecrim. Todos os direitos reservados.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#services">Serviços</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
